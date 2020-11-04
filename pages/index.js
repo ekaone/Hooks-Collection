@@ -4,6 +4,9 @@ import styles from "../styles/Home.module.css";
 import UseBattery from "../hooks/useBattery";
 import UseGeolocation from "../hooks/useGeolocation";
 import UseLongPress from "../hooks/useLongPress";
+import UseMedia from "../hooks/useMedia";
+import UseStartTyping from "../hooks/useStartTyping";
+import UseAudio from "../hooks/useAudio";
 
 export default function Home() {
   return (
@@ -47,6 +50,30 @@ export default function Home() {
             <div>Press button more long!</div>
             <div>
               <UseLongPress />
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <h3 style={{ color: "blueviolet" }}>useMedia &rarr;</h3>
+            <div>Try resize screen</div>
+            <div>
+              <UseMedia />
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <h3 style={{ color: "blueviolet" }}>useStartTyping &rarr;</h3>
+            <div></div>
+            <div>
+              <UseStartTyping />
+            </div>
+          </div>
+
+          <div className={styles.card}>
+            <h3 style={{ color: "blueviolet" }}>useStartTyping &rarr;</h3>
+            <div></div>
+            <div>
+              <UseAudio />
             </div>
           </div>
         </div>
