@@ -8,5 +8,9 @@ export default function UseStartTyping() {
     setTyping("Typing...");
   });
 
-  return <div>{typing}</div>;
+  return (
+    <>
+      <div>{typing}</div>
+    </>
+  );
 }

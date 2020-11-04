@@ -70,7 +70,7 @@ export default function Home() {
           </div>
 
           <div className={styles.card}>
-            <h3 style={{ color: "blueviolet" }}>useStartTyping &rarr;</h3>
+            <h3 style={{ color: "blueviolet" }}>useAudio &rarr;</h3>
             <div></div>
             <div>
               <UseAudio />
